@@ -1,0 +1,40 @@
+
+h1, h2 {
+  color: white;
+}
+
+.btnAdd {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body {
+  background: purple;
+}
+
+.messageToUsers {
+  color: red;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; 
+}
+
+.flex-large {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  h1, input {
+    text-align: center; 
+    display: block; 
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+}
